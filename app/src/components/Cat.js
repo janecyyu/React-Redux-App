@@ -10,6 +10,7 @@ const Cat = (props) => {
   useEffect(() => {
     // call an action creator
     props.updateCat(catBreed);
+    setCatBreed("")
   }, []);
 
   const handleChange = (e) => {
