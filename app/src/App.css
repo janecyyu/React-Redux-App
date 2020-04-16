@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+/* header */
+
+/* content */
+.content{
+  display: flex;
+  padding:2% 5%;
+}
+.catImage {
+  max-width: 85%;
+  max-height: 85%;
+}
+.right{
+  flex:1;
+}
+.left{
+  flex:1;
+}
